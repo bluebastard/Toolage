@@ -80,7 +80,7 @@ def geddem(args):
 if __name__ == "__main__":
     argps = argparse.ArgumentParser(prog="Buttcockles 1.0")
     argps.add_argument("domain")
-    argps.add_argument("-f",action='store_true',help="full output(pretty gay tbh)")
+    argps.add_argument("-f",action='store_true',help="full output")
     argps.add_argument("-i",action='store_true',help="output ip addresses")
     argps.add_argument("-d",action='store_true',help="output domains")
     argps.add_argument("-a",action='store_true',help="output AS")

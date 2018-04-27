@@ -65,9 +65,10 @@ def geddem(args):
             else:
                 rlist.append(ip)
 
-
-    rlist.sort()
-    for res_elem in rlist:
+    r_set = set(rlist)
+    rlistf = list(r_set)
+    rlistf.sort()
+    for res_elem in rlistf:
         if args.o:
             ofile.write(res_elem+"\n")
         else:

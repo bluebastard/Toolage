@@ -10,7 +10,7 @@ def geddem(args):
     eh = "https://findsubdomains.com/subdomains-of/"
     dom = args.domain
 
-    print("\033[1m[!] Looking up %s" % args.domain)
+    print("\033[1m[!] Looking up %s" % dom)
     p = requests.get(eh+dom.strip())
     
     print("\033[1m[!] Parsing shit...")

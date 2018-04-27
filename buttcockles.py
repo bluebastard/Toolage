@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# buttcockles 1.0
+# buttcockles 1.0 - small scraper for findsubdomains.com
 import requests
 import argparse
 import socket
